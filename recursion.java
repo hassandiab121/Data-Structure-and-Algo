@@ -4,8 +4,6 @@
  * and open the template in the editor.
  */
 package assignments;
-import edu.princeton.cs.algs4.StdIn;
-import edu.princeton.cs.algs4.StdOut;
 
 
 public class recursion {
