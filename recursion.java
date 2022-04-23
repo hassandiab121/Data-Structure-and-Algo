@@ -18,6 +18,7 @@ public class recursion {
         // TODO code application logic here
       
       reverseString(s);
+        // print the reversed array of characters
       int counter=0;
      while(counter !=6)
      {
@@ -31,7 +32,7 @@ public class recursion {
      int start =0;
      int end =s.length -1;
  
-       reverseString(s , start, end); // overloaded recursive helper function
+     reverseString(s , start, end); // overloaded recursive helper function
        
     }
  
@@ -46,7 +47,7 @@ public class recursion {
             char m =s[start];
             s[start]=s[end];
             s[end]=m;
-            reverseString(s,++start,--end);
+            reverseString(s,++start,--end);  //recursive relation
  
         }
     } 
